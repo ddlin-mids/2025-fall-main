@@ -13,7 +13,7 @@ answering, and summarization.
 
 ## Links:
 
-* [Ed Discussion](https://edstem.org/us/courses/78359/discussion)
+* [Ed Discussion](https://edstem.org/us/courses/81422/discussion)
 * [Syllabus](syllabus/)
 * [Assignments](assignment/)
 * [Project](project/)

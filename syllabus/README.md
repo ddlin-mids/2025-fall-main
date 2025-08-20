@@ -42,7 +42,7 @@ By the completion of this course, students will be able to:
 
 **Live Sessions**
 * Section 1: Monday 6:30 - 8:00pm PST (Paul Spiegelhalter)
-* Section 2: Tuesday 4:00 - 5:30pm PST (Natalie Ahn) 
+* Section 2: Tuesday 4:00 - 5:30pm PST (Amit Bhattacharyya) 
 * Section 3: Wednesday 2:00 - 3:30pm PST (Mike Tamir)
 * Section 4: Thursday 4:00 - 5:30pm PST (Jennifer Zhu)
 * Section 5: Thursday 6:30 - 8:00pm PST (Mark Butler)
@@ -52,9 +52,9 @@ By the completion of this course, students will be able to:
 
 **Teaching Staff Office Hours**
 
-* **Rajiv Nair**: Monday at 4pm PST
+* **Raymond Tang**: TBD
 * **Paul Spiegelhalter**: Monday at 8pm PST
-* **Natalie Ahn**: Tuesday at 6pm PST
+* **Amit Bhattacharyya**: Tuesday at 6pm PST
 * **Mike Tamir**: [Friday at 9:00am PST](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0k-IPUX4AHfjAMDtmuAqBHMJTW2vF6yOh36H15WDjgyzK6pdY0Br5BZhSJ9Qyn4hCI4T4G5p6L?gv=true)
 * **Rachel Gao**: Thursday at 5pm PST 
 * **Jennifer Zhu**: Thursday at 6pm PST
@@ -89,8 +89,8 @@ Office hours are for the whole class; students from any section are welcome to a
     <li>Ed Discussion
     <li>Google Cloud
   </ul></td>
-  <td>May&nbsp;09</td>
-  <td>May&nbsp;18</td>
+  <td>Aug&nbsp;29</td>
+  <td>Sep&nbsp;07</td>
   <td>2%</td>
 </tr>
 <tr>
@@ -98,8 +98,8 @@ Office hours are for the whole class; students from any section are welcome to a
   <!-- <strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>  -->
   Assignment&nbsp;1
   <td><strong>Basic Neural Nets</strong></td>
-  <td>May&nbsp;16</td>
-  <td>May&nbsp;25</td>
+  <td>Sep&nbsp;05</td>
+  <td>Sep&nbsp;14</td>
   <td>5%</td>
 </tr>
 <tr>
@@ -107,8 +107,8 @@ Office hours are for the whole class; students from any section are welcome to a
   <!-- <strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>  -->
   Assignment&nbsp;2
   <td><strong>Text Classification</strong></td>
-  <td>May&nbsp;23</td>
-  <td>Jun&nbsp;08</td>
+  <td>Sep&nbsp;12</td>
+  <td>Sep&nbsp;28</td>
   <td>15%</td>
 </tr>
 <tr>
@@ -116,8 +116,8 @@ Office hours are for the whole class; students from any section are welcome to a
   <!-- <strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>  -->
   Assignment&nbsp;3
   <td><strong>Machine Translation</strong></td>
-  <td>Jun&nbsp;13</td>
-  <td>Jun&nbsp;29</td>
+  <td>Oct&nbsp;03</td>
+  <td>Oct&nbsp;19</td>
   <td>15%</td>
 </tr>
 <tr>
@@ -125,8 +125,8 @@ Office hours are for the whole class; students from any section are welcome to a
   <!-- <strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>  -->
   Assignment&nbsp;4
   <td><strong>Multimodal NLP</strong></td>
-  <td>Jun&nbsp;27</td>
-  <td>Jul&nbsp;13</td>
+  <td>Oct&nbsp;17</td>
+  <td>Nov&nbsp;02</td>
   <td>08%</td>
 </tr>
 <tr>
@@ -135,7 +135,7 @@ Office hours are for the whole class; students from any section are welcome to a
   Final Project
   <td><strong><a href="../project" target="_blank">Final Project Guidelines</a></strong></td>
   <td></td>
-  <td>Aug&nbsp;03</td>
+  <td>Dec&nbsp;07</td>
   <td>55%</td>
 </tr>
 </table>
@@ -263,7 +263,7 @@ We'll update the table below with assignments as they become available, as well 
 
 *Dates are tentative:* Assignments in particular may change topics and dates.  (Updated slides for each week will be posted during the live session week.)
 
-### Live Session Slides [[available with @berkeley.edu address](https://drive.google.com/drive/folders/1MGSGfcMNj9JsfFQtvjZBo9XZwRr-8GZS?usp=sharing)]
+### Live Session Slides [[available with @berkeley.edu address](https://drive.google.com/drive/folders/1xVu0Y4VkuU3Zm4O0s1DumGX5cBrqkz1G?usp=sharing)]
 
 ### Deliverables
 
@@ -276,43 +276,6 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 
-<tr>
-  <td>
-  <strong><a href="../assignment/a0" target="_blank">Assignment&nbsp;0</a></strong>
-
-<!-- Assignment&nbsp;0 -->
-  <td><strong>Course Set-up</strong>
-  <ul>
-    <li>GitHub
-    <li>Ed Discussion
-  </ul></td>
-  <td>May&nbsp;09</td>
-  <td>May&nbsp;18</td>
-</tr> 
-
-
-
-<tr> <!-- a1 -->
-  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
-  <td><strong>Assignment&nbsp;1</strong>
-  <ul>
-    <li>Neural Networks
-  </ul></td>
-  <td>May&nbsp;16</td>
-  <td>May&nbsp;25</td>
-</tr>
-
-
-<tr> <!-- a2 -->
-  <td><strong><a href="../assignment/a2" target="_blank">Assignment&nbsp;2</a></strong>
-  <td><strong>Assignment&nbsp;2</strong>
-  <ul>
-    <li>Pre-training &amp; Fine-tuning of Language Models
-  </ul></td>
-  <td>May&nbsp;23</td>
-  <td>Jun&nbsp;08</td>
-</tr>
-
 
 <tr><!-- Project Proposals -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
@@ -320,32 +283,10 @@ will be released after the last live session of the week (on Friday) and due app
   <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
   </td>
   <td></td>
-  <td>Jun&nbsp;15</td>
+  <td>oct&nbsp;05</td>
 </tr>
 
 
-<tr> <!-- a3 -->
-  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
-  <td><strong>Assignment 3</strong>
-  <ul>
-    <li>Machine Translation
-    <li>Summarization
-  </ul></td>
-  <td>Jun&nbsp;13</td>
-  <td>Jun&nbsp;29</td>
-</tr>
-
-
-
-<tr> <!-- a4 -->
-  <td><strong><a href="../assignment/a4" target="_blank">Assignment&nbsp;4</a></strong>
-  <td><strong>Assignment 4</strong>
-  <ul>
-    <li>Image Captioning
-  </ul></td>
-  <td>Jun&nbsp;27</td>
-  <td>Jul&nbsp;13</td>
-</tr>
 
 
 
@@ -354,7 +295,7 @@ will be released after the last live session of the week (on Friday) and due app
   </td>
   <td></td>
   <td></td>
-  <td><br>Aug&nbsp;03<br><strong>(hard deadline)</strong></td>
+  <td><br>Dec&nbsp;07<br><strong>(hard deadline)</strong></td>
 </tr>
 
 
@@ -362,7 +303,7 @@ will be released after the last live session of the week (on Friday) and due app
   <td><strong><a href="../project/#presentations" target="_blank">Project&nbsp;Presentations</a></strong></td>
   <td></td>
   <td></td>
-  <td>In-class Aug&nbsp;04-08</td>
+  <td>In-class Dec&nbsp;08-12</td>
 </tr>
 </table>
 
@@ -377,7 +318,7 @@ will be released after the last live session of the week (on Friday) and due app
 <th>Materials</th>
 </tr>
 <tr><!--- Introductions -->
-  <td><strong>Week&nbsp;1</strong><br>(May&nbsp;05)</td>
+  <td><strong>Week&nbsp;1</strong><br>(Aug&nbsp;25)</td>
   <td>Introduction
   </td>
   <td><ul>
@@ -402,7 +343,7 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 <tr><!--- Week 2 -->
-  <td><strong>Week&nbsp;2</strong><br>(May&nbsp;12)</td>
+  <td><strong>Week&nbsp;2</strong><br>(Sep&nbsp;01)</td>
   <td>
   <br>Text Classification
   </td>
@@ -419,7 +360,7 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 <tr><!--- Week 3 -->
-  <td><strong>Week&nbsp;3</strong><br>(May&nbsp;19)</td>
+  <td><strong>Week&nbsp;3</strong><br>(Sep&nbsp;08)</td>
   <td>Language and Context
     </td>
   <td><ul>
@@ -437,7 +378,7 @@ will be released after the last live session of the week (on Friday) and due app
 
 
 <tr><!--- Week 4 -->
-  <td><strong>Week&nbsp;4</strong><br>(May&nbsp;26)</td>
+  <td><strong>Week&nbsp;4</strong><br>(Sep&nbsp;15)</td>
   <td>Pretrained Transformers
   <p><p>
   </td>
@@ -454,7 +395,7 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 <tr><!--- Week 5 -->
-  <td><strong>Week&nbsp;5</strong><br>(Jun&nbsp;02)</td>
+  <td><strong>Week&nbsp;5</strong><br>(Sep&nbsp;22)</td>
   <td>Text Generation Models</td>
   <td><ul>
     <li>Sequence to Sequence Architectures
@@ -486,7 +427,7 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 <tr><!--- Week 6 -->
-  <td><strong>Week&nbsp;6</strong><br>(Jun&nbsp;09)</td>
+  <td><strong>Week&nbsp;6</strong><br>(Sep&nbsp;29)</td>
   <td>Machine Translation</td>
   <td><ul>
   <li>Challenges of Language
@@ -505,7 +446,7 @@ will be released after the last live session of the week (on Friday) and due app
 </tr>
 
 <tr><!--- Week 7  -->
-  <td><strong>Week&nbsp;7</strong><br>(Jun&nbsp;16)</td>
+  <td><strong>Week&nbsp;7</strong><br>(Oct&nbsp;06)</td>
   <td>Question Answering
   <br> and Summarization</td>
   <td><ul>
@@ -523,8 +464,8 @@ will be released after the last live session of the week (on Friday) and due app
   </tr>
   
   <tr><!--- week 8  -->
-  <td><strong>Week&nbsp;8</strong><br>(Jun&nbsp;23)</td>
-  <td>Linguistic Representation</td>
+  <td><strong>Week&nbsp;8</strong><br>(Oct&nbsp;13)</td>
+  <td>Linguistic Representation and Dialog</td>
   <td><ul>
   <li>Elements of Language
   <li>Grammars
@@ -551,7 +492,7 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
 </tr>
 
 <tr><!--- Week 09  -->
-  <td><strong>Week&nbsp;9</strong><br>(Jun&nbsp;30)</td>
+  <td><strong>Week&nbsp;9</strong><br>(Oct&nbsp;20)</td>
   <td>Entities and Linking</td>
   <td><ul>
   <li>Named Entity Recognition
@@ -571,7 +512,7 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
 
 
 <tr><!--- Week 10  -->
-  <td><strong>Week&nbsp;10</strong><br>(Jul&nbsp;07)</td>
+  <td><strong>Week&nbsp;10</strong><br>(Oct&nbsp;27)</td>
   <td>Embedding-based Retrieval</td>
   <td><ul>
   <li>Single- vs. multi-document retrieval
@@ -590,16 +531,8 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
 </tr>
 
 
- <!-- <tr>
-  <td><strong>Break</strong><br>(Nov&nbsp;6)</td>
-  <td>No Async</td>
-    <td>No class</td>
-  <td>No Readings</td>
-</tr>
--->
-
  <tr><!---   week 11 -->
-  <td><strong>Week&nbsp;11</strong><br>(Jul&nbsp;14)</td>
+  <td><strong>Week&nbsp;11</strong><br>(Nov&nbsp;03)</td>
   <td>Multimodality in NLP</td>
   <td><ul>
   <li>Multimodal Applications
@@ -614,16 +547,17 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
   </td>
 </tr>
 
-<!-- <tr>
-  <td><strong>Spring Break</strong><br>(Mar&nbsp;24)</td>
+
+<tr>
+  <td><strong>Break</strong><br>(Nov&nbsp;10)</td>
   <td>No Async</td>
     <td>No class</td>
   <td>No Readings</td>
-</tr> 
--->
+</tr>
+
 
 <tr><!--- Week 12  -->
-  <td><strong>Week&nbsp;12</strong><br>(Jul&nbsp;21)</td>
+  <td><strong>Week&nbsp;12</strong><br>(Nov&nbsp;17)</td>
   <td>ML Fairness and Privacy</td>
   <td><ul>
   <li>Fairness
@@ -640,16 +574,16 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
 </tr>
 
 
-<!-- <tr>
-  <td><strong>Thanksgiving Break</strong><br>(Nov&nbsp;25)</td>
+<tr>
+  <td><strong>Thanksgiving Break</strong><br>(Nov&nbsp;24)</td>
   <td>No Async</td>
     <td>No class</td>
   <td>No Readings</td>
 </tr>
--->
+
 
 <tr><!--- Week 13  -->
-  <td><strong>Week&nbsp;13</strong><br>(Jul&nbsp;28)</td>
+  <td><strong>Week&nbsp;13</strong><br>(Dec&nbsp;01)</td>
   <td>NLP in the Real World</td>
   <td><ul>
   <li>Productization at Scale
@@ -667,7 +601,7 @@ Memory Efficient, and Long Context Finetuning and Inference</a>
 
 
  <tr><!--- In class presentations week 14 -->
-  <td><strong>Week&nbsp;14</strong><br>(Aug&nbsp;04)</td>
+  <td><strong>Week&nbsp;14</strong><br>(Dec&nbsp;08)</td>
     <td></td>
   <td>In-class project presentations</td>
   <td></td>

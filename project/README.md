@@ -87,7 +87,7 @@ For project ideas, take a look at the final projects from [previous](example-com
 - Analysis of gender roles or power dynamics in movie dialogues
 - Exploration of techniques for interpreting “black box” / neural models for language
 
-Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/1EkeJFVA7Ck7zYfoQrZaVKZecszZlNr-v?usp=sharing).  The folder and its contents are available for viewing to anyone with a berkeley.edu email address.
+Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/1_0XJWUWNNUJ1U_nBQF_rRKFNquZ-wprS?usp=sharing).  The folder and its contents are available for viewing to anyone with a berkeley.edu email address.
 
 Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2022/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2022/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
 
@@ -115,7 +115,7 @@ Last year’s NLP conferences might be good for inspiration as well, or if you j
 
 Between Week 2 and Week 4, the instructors will be holding special discussion sections (during OH) to talk about how to search the literature and read NLP papers. Each session will also include a guided discussion of a specific paper. We'll release a schedule and a list of papers each week in the semester.
 
-Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and submit a link to you proposal via [this form](https://forms.gle/u4wdKj7jvmacnQ9h6).  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
+Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and submit a link to you proposal via [this form](https://forms.gle/notyet).  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
 _Please NO Microsoft Word documents!_
 
 ## Authors' Contributions (for teams of 2 or 3)
@@ -161,7 +161,7 @@ This will be a final report in the style of a research paper. Aim for 4-6 pages 
 
 **Privacy:** If you don't want us to release your report publicly, please indicate that in the form below.
 
-Please submit your PDF (and your project's code) to your course GitHub if working alone or to a team repo if in a group and then complete [this form](https://forms.gle/HiY5QawMDbUoD6uL8). Do **NOT** change the content of your report or the rest of your submission after the final date or your revisions will result in a late penalty for your project.
+Please submit your PDF (and your project's code) to your course GitHub if working alone or to a team repo if in a group and then complete [this form](https://forms.gle/TooSoon). Do **NOT** change the content of your report or the rest of your submission after the final date or your revisions will result in a late penalty for your project.
 
 We will be providing feedback to teams based on the rubric above.  This will take us some time (potentially up to a month after the deadline) and likely term grades will be released ahead of that feedback.
 
