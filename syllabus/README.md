@@ -173,6 +173,7 @@ All students —undergraduate, graduate, professional full time, part time, law,
 We encourage studying in groups of two to four people. This applies to working on homework, discussing labs and projects, and studying. However, students must always adhere to the UC Berkeley Code of Conduct (http://sa.berkeley.edu/code-of-conduct ) and the UC Berkeley Honor Code (https://teaching.berkeley.edu/berkeley-honor-code ). In particular, all materials that are turned in for credit or evaluation must be written solely by the submitting student or group. Similarly, you may consult books, publications, or online resources to help you study. In the end, you must always credit and acknowledge all consulted sources in your submission (including other persons, books, resources, etc.)
 
 
+
 ## Final Project
 *See the [Final Project Guidelines](../project/)*
 
@@ -223,6 +224,30 @@ You are highly encouraged to use your program coursework to build an academic/pr
   * For help writing professional academic papers students are encouraged to contact Sabrina Soracco, the Director of the Graduate Writing Center, in the Graduate Division -- see https://grad.berkeley.edu/staff/sabrina-soracco/ and https://grad.berkeley.edu/professional-development/graduate-writing-center/ -- the latter has links to resource guides, appointments with consultants, workshops, etc.
 * Publish your news (e.g., conference talks, awards, scholarships) to the I School internal newsletter.
 
+## Rules on the use of Gen AI
+
+We live in a time when we all have access to a variety of large language models (LLMs), some available for a fee and others available for free. There are also apps and services built on top of these LLMs which we include under the umbrella of Gen AI. We want to make clear how you MAY and MAY NOT use GenAI in this class.  In specific assignments, we may have additional rules.
+
+
+YOU **MAY**
+
+* use GenAI to answer questions (but not on assignments)
+* use GenAI to explain content
+* use GenAI to explain code
+* use GenAI to help explain error messages when you run code
+* use GenAI to brainstorm ideas
+
+
+YOU **MAY NOT**
+
+* use GenAI to generate the actual code solutions to your homework assignments
+* use GenAI to generate the entire text or the entire answer to a question in assignments
+
+
+
+YOU **MUST**
+
+* minimally cite uses of GenAI in either the References or other designated section by indicating which model you used and the task you used it for.
 
 
 ## Course Resources
