@@ -54,7 +54,7 @@ By the completion of this course, students will be able to:
 
 * **Raymond Tang**: TBD
 * **Paul Spiegelhalter**: Monday at 8pm PST
-* **Amit Bhattacharyya**: Fridays at 1pm PST
+* **Amit Bhattacharyya**: Tuesday at 6pm PST
 * **Mike Tamir**: [Friday at 9:00am PST](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0k-IPUX4AHfjAMDtmuAqBHMJTW2vF6yOh36H15WDjgyzK6pdY0Br5BZhSJ9Qyn4hCI4T4G5p6L?gv=true)
 * **Rachel Gao**: Thursday at 5pm PST 
 * **Jennifer Zhu**: Thursday at 6pm PST
@@ -300,6 +300,15 @@ will be released after the last live session of the week (on Friday) and due app
 <th></th><th>Topic</th><th>Release</th><th>Deadline</th>
 </tr>
 
+<!-- Assignment&nbsp;0 -->
+  <td><strong>Course Set-up</strong>
+  <ul>
+    <li>GitHub
+    <li>Ed Discussion
+  </ul></td>
+  <td>Aug&nbsp;29</td>
+  <td>Sep&nbsp;07</td>
+</tr> 
 
 
 <tr><!-- Project Proposals -->
