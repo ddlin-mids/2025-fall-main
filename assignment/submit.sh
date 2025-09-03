@@ -110,7 +110,7 @@ echo "HTTPS is default, but SSH may be needed if you use two-factor auth."
 select mode in "HTTPS" "SSH" "(cancel)"; do
   case $mode in
     "HTTPS" ) REMOTE_URL="https://github.com/$REPO_NAME.git"; break;;
-    "SSH" ) REMOTE_URL="git@github.com:$REPO_NAME.git"; break;;
+    "SSH" ) REMOTE_URL="git@github-berkeley:$REPO_NAME.git"; break;;
     "(cancel)" ) echo "Submit cancelled."; exit;;
   esac
 done

@@ -4,3 +4,7 @@
 **/tf_summaries/
 **/AUTH_TOKEN
 **/data/
+
+.venv/
+.uv_cache/
+.python-version
