@@ -316,6 +316,19 @@ will be released after the last live session of the week (on Friday) and due app
 </tr> 
 
 
+<tr> <!-- a1 -->
+  <td><strong><a href="../assignment/a1" target="_blank">Assignment&nbsp;1</a></strong>
+  <td><strong>Assignment&nbsp;1</strong>
+  <ul>
+    <li>Neural Networks
+  </ul></td>
+  <td>Sep&nbsp;05</td>
+  <td>Sep&nbsp;14</td>
+</tr>
+
+
+
+
 <tr><!-- Project Proposals -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
