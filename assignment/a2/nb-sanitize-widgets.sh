@@ -1,30 +1,64 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -ne 2 ]]; then
-  echo "Usage: $0 <input.ipynb> <output.ipynb>"
-  exit 1
-fi
+show_help() {
+  cat <<'EOF'
+Usage:
+  nb-sanitize-widgets.sh --target-nb <input.ipynb> --output-nb <output.ipynb>
 
-in_nb="$1"
-out_nb="$2"
+Description:
+  Removes Jupyter widget state that breaks GitHub rendering while preserving
+  code, markdown, and non-widget outputs (e.g., text/plain, image/png).
 
-if [[ ! -f "$in_nb" ]]; then
-  echo "Error: input file not found: $in_nb" >&2
-  exit 1
-fi
+Options:
+  --target-nb <PATH>   Path to the input notebook (.ipynb)
+  --output-nb <PATH>   Path to write the sanitized notebook
+  --help               Show this help message and exit
 
-if ! command -v jq >/dev/null 2>&1; then
-  echo "Error: jq not found in PATH." >&2
-  exit 1
-fi
+Examples:
+  nb-sanitize-widgets.sh --target-nb Text_classification_CNN.ipynb \
+                         --output-nb Text_classification_CNN_clean.ipynb
 
-# temp file in same dir as output for atomic-ish replace (and to keep permissions sane)
-out_dir="$(dirname "$out_nb")"
-tmp_nb="$(mktemp "${out_dir%/}/.nbsanitize.XXXXXX")"
+  # In-place sanitize
+  nb-sanitize-widgets.sh --target-nb Text_classification_CNN.ipynb \
+                         --output-nb Text_classification_CNN.ipynb
+EOF
+}
 
-# The jq program that removes widget state globally, per-cell, and in outputs.
-jq_program=$(cat <<'JQ'
+# --- Parse args ---
+TARGET_NB=""
+OUTPUT_NB=""
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --help)
+      show_help; exit 0;;
+    --target-nb)
+      [[ $# -ge 2 ]] || { echo "Error: --target-nb requires a value" >&2; exit 1; }
+      TARGET_NB="$2"; shift 2;;
+    --output-nb)
+      [[ $# -ge 2 ]] || { echo "Error: --output-nb requires a value" >&2; exit 1; }
+      OUTPUT_NB="$2"; shift 2;;
+    *)
+      echo "Error: Unknown option: $1" >&2
+      echo "Run with --help for usage." >&2
+      exit 1;;
+  esac
+done
+
+# --- Validate ---
+[[ -n "${TARGET_NB}" ]] || { echo "Error: --target-nb is required" >&2; exit 1; }
+[[ -n "${OUTPUT_NB}" ]] || { echo "Error: --output-nb is required" >&2; exit 1; }
+[[ -f "${TARGET_NB}" ]] || { echo "Error: input file not found: ${TARGET_NB}" >&2; exit 1; }
+command -v jq >/dev/null 2>&1 || { echo "Error: jq not found in PATH" >&2; exit 1; }
+
+# Temp file in output dir for atomic-ish write
+OUT_DIR="$(dirname "${OUTPUT_NB}")"
+mkdir -p "${OUT_DIR}"
+TMP_NB="$(mktemp "${OUT_DIR%/}/.nbsanitize.XXXXXX")"
+
+# --- jq program: strip widget state globally, per-cell, and in outputs ---
+read -r -d '' JQ_PROGRAM <<'JQ' || true
 del(.metadata.widgets)
 | .cells |= map(
     (.metadata? |= del(.widgets))
@@ -43,12 +77,11 @@ del(.metadata.widgets)
        end)
   )
 JQ
-)
 
-# Run the sanitizer
-jq "$jq_program" "$in_nb" > "$tmp_nb"
+# --- Run sanitizer ---
+jq "${JQ_PROGRAM}" "${TARGET_NB}" > "${TMP_NB}"
 
-# Move into place
-mv -f "$tmp_nb" "$out_nb"
+# --- Move into place ---
+mv -f "${TMP_NB}" "${OUTPUT_NB}"
 
-echo "Sanitized notebook written to: $out_nb"
+echo "Sanitized notebook written to: ${OUTPUT_NB}"
