@@ -75,37 +75,37 @@ neural_network_dan_text_classification_1_3_1_3_c: 0.78200
 # ------------------------------------------------------------------
 
 # Question 2.1.a (/2): What is the val_loss value you have after the 1st epoch of training? Copy the value in the output to the answers file. (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-cnn_text_classification_2_2_1_a: 0.00000
+cnn_text_classification_2_2_1_a: 0.46626
 
 # Question 2.1.b (/2): What is the val_loss value you have after the 2nd epoch of training? Copy the value in the output to the answers file. (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-cnn_text_classification_2_2_1_b: 0.00000
+cnn_text_classification_2_2_1_b: 0.42402
 
 # Question 2.1.c (/2): What is the val_loss value you have after the 3rd epoch of training? Copy the value in the output to the answers file. (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-cnn_text_classification_2_2_1_c: 0.00000
+cnn_text_classification_2_2_1_c: 0.41153
 
 # Question 2.1.d (/2): What is the val_loss value you have after the 4th epoch of training? Copy the value in the output to the answers file. (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-cnn_text_classification_2_2_1_d: 0.00000
+cnn_text_classification_2_2_1_d: 0.40233
 
 # Question 2.1.e (/2): What is the val_loss value you have after the 5th and final epoch of training. Copy the value in the output to the answers file. (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-cnn_text_classification_2_2_1_e: 0.00000
+cnn_text_classification_2_2_1_e: 0.40067
 
 # Question 2.1.f (/2): What values did you use for num_filters = [] to stop the overfitting?
-cnn_text_classification_2_2_1_f: your answer
+cnn_text_classification_2_2_1_f: [64, 64, 32]
 
 # Question 2.1.g (/2): What values did you use for kernel_sizes = [] to stop the overfitting?
-cnn_text_classification_2_2_1_g: your answer
+cnn_text_classification_2_2_1_g: [3, 4, 5]
 
 # Question 2.1.h (/2): What values did you use for dense__layer_dims= [] to stop the overfitting?
-cnn_text_classification_2_2_1_h: your answer
+cnn_text_classification_2_2_1_h: [64]
 
 # Question 2.1.i (/2): What value did you use for dropout_rate =  to stop the overfitting?
-cnn_text_classification_2_2_1_i: 0.00000
+cnn_text_classification_2_2_1_i: 0.6
 
 # Question 2.1.j (/2): What value did you use for embeddings_trainable = to stop the overfitting?
 cnn_text_classification_2_2_1_j: False
 
 # Question 2.1.k (/2): What values did you use for batch_size = to stop the overfitting?
-cnn_text_classification_2_2_1_k: 0
+cnn_text_classification_2_2_1_k: 64
 
 
 
