@@ -123,38 +123,36 @@ cnn_text_classification_2_2_1_k: 64
 # Question 3.1.a (/1): Why do the attention_masks have 4 and 1 zeros, respectively?
 # (This question is multiple choice.  Delete all but the correct answer).
 bert_text_classification_3_1_3_1_a: 
- - For the first example the last four tokens belong to a different segment. For the second one it is only the last token.
  - For the first example 4 positions are padded while for the second one it is only one.
 
 # Question 3.1.b (/1): How many outputs are there?
 bert_text_classification_3_1_3_1_b: 
-- your answer
+- 2
 
 # Question 3.1.c (/1): Which output do we need to use to get token-level embeddings?
 # (This question is multiple choice.  Delete all but the correct answer).
 bert_text_classification_3_1_3_1_c: 
  - the first
- - the second
 
 # Question 3.1.d (/2): Which input_id number corresponds to 'bank' in the two sentences?
 bert_text_classification_3_1_3_1_d: 
-- your answer
+- 3085
 
 # Question 3.1.e (/2): Which token array index number corresponds to 'bank' in the first sentence?
 bert_text_classification_3_1_3_1_e: 
-- your answer
+- 2
 
 # Question 3.1.f (/2): Which array index number corresponds to 'bank' in the second sentence?
 bert_text_classification_3_1_3_1_f: 
-- your answer
+- 4
 
 # Question 3.1.g (/3): What is the cosine similarity between the BERT outputs for the two occurences of 'bank' in the two sentences?
 bert_text_classification_3_1_3_1_g: 
-- your answer
+- 0.74783
 
 # Question 3.1.h (/3): How does this relate to the cosine similarity of 'this' (sentence 1) and 'the' (sentence 2). Compute the cosine similarity.
 bert_text_classification_3_1_3_1_h: 
-- your answer
+- 0.81103
 
 
 # ------------------------------------------------------------------
@@ -162,24 +160,25 @@ bert_text_classification_3_1_3_1_h:
 # ------------------------------------------------------------------
 
 # Question 3.2.a (/2): What is the model checkpoint name for the most recent version of this Twitter Roberta-base sentiment analysis model?
-bert_text_classification_3_2_3_2_a: your answer
+bert_text_classification_3_2_3_2_a: 
+ - cardiffnlp/twitter-roberta-base-sentiment-latest
 
 # Question 3.2.b (/2): Approximately how many tweets was this latest model trained on? (You can use the abbreviation for millions like in the model card, e.g. a number like 12M or 85M.)
-bert_text_classification_3_2_3_2_b: your answer
+bert_text_classification_3_2_3_2_b:
+ - "~124M"
 
 # Question 3.2.c (/2): What is the title of the published reference paper for this most recent model?
-bert_text_classification_3_2_3_2_c: your answer
+bert_text_classification_3_2_3_2_c:
+ - "TimeLMs: Diachronic Language Models from Twitter"
 
 # Question 3.2.d (/5): What is the final validation accuracy that you observed for the Twitter RoBERTa sentiment-trained model after training for 2 epochs?
 bert_text_classification_3_2_3_2_d: 
-- your answer
+- 0.8882
 
 # Question 3.2.e (/2): Did the Twitter RoBERTa sentiment-trained model do better or worse or the same as the BERT-base?
 # (This question is multiple choice.  Delete all but the correct answer).
 bert_text_classification_3_2_3_2_e: 
  - RoBERTa better
- - RoBERTa worse
- - Same
 
 # Question 3.2.f (/2): Answer in the notebook
 bert_text_classification_3_2_3_2_f: your answer
@@ -190,7 +189,7 @@ bert_text_classification_3_2_3_2_f: your answer
 # ------------------------------------------------------------------
 
 # Question 3.3.a (/5): What is the final validation accuracy that you observed for this lowest level unfrozen version of the BERT classification model after training for 2 epochs?  (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
-bert_text_classification_3_2_3_3_a: 0.00000
+bert_text_classification_3_2_3_3_a: 0.8116
 
 # Question 3.3.b (/1): What is the final training loss that you observed for your better performing version of the BERT classification model after training for 2 epochs?  (Copy and paste the decimal value e.g. a number like 0.5678 or 0.87654)
 bert_text_classification_3_2_3_3_b: 0.00000
