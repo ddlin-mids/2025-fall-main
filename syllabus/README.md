@@ -345,10 +345,20 @@ will be released after the last live session of the week (on Friday) and due app
   <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
   </td>
   <td></td>
-  <td>oct&nbsp;05</td>
+  <td>Oct&nbsp;05</td>
 </tr>
 
 
+<tr> <!-- a3 -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <td><strong>Assignment 3</strong>
+  <ul>
+    <li>Machine Translation
+    <li>Summarization
+  </ul></td>
+  <td>Oct&nbsp;03</td>
+  <td>Oct&nbsp;19</td>
+</tr>
 
 
 
