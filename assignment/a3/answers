@@ -222,16 +222,16 @@ summarization_test_3_3_5:
 
 # Question 1.1 (/3.5): What is the number of words in your prompt once you've met the scoring criteria?
 summarization_llm_test_1_1_1: 
-- your answer
+- 117
 
 # Question 1.2 (/1): What is the avg ROUGE-1 score you get once you've met the scoring criteria?
 summarization_llm_test_1_1_2: 
-- your answer
+- 0.2156
 
 # Question 1.3 (/1): What is the avg ROUGE-2 score you get once you've met the scoring criteria?
 summarization_llm_test_1_1_3: 
-- your answer
+- 0.0456
 
 # Question 1.4 (/1): What is the avg ROUGE-L score you get once you've met the scoring criteria?
 summarization_llm_test_1_1_4: 
-- your answer
+- 0.1682
