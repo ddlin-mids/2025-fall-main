@@ -24,4 +24,8 @@ dependencies = [
     "transformers>=4.55.4",
     "tqdm>=4.66.2",
     "scikit-learn>=1.7.2",
+    "rouge-score>=0.1.2",
+    "nltk>=3.9.2",
+    "absl-py>=2.3.1",
+    "protobuf>=6.33.0",
 ]

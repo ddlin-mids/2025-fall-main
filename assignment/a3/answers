@@ -141,23 +141,23 @@ machine_translation_with_t5_3_3_d:
 
 # Question 1.1 (/0.5): What num_beams value gives you the most readable output?
 summarization_test_1_1_1: 
-- your answer
+- 6
 
 # Question 1.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
 summarization_test_1_1_2: 
-- your answer
+- 2
 
 # Question 1.3 (/0.5): What min_length value gives you the most readable output?
 summarization_test_1_1_3: 
-- your answer
+- 18
 
 # Question 1.4 (/0.5): Which max_new_tokens value gives the most readable output?
 summarization_test_1_1_4: 
-- your answer
+- 48
 
 # Question 1.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
 summarization_test_1_1_5: 
-- your answer
+- 0.31111
 
 
 # ------------------------------------------------------------------
@@ -166,24 +166,22 @@ summarization_test_1_1_5:
 
 # Question 2.1 (/0.5): What num_beams value gives you the most readable output?
 summarization_test_2_2_1: 
-- your answer
+- 6
 
 # Question 2.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
 summarization_test_2_2_2: 
-- your answer
-
+- 2
 # Question 2.3 (/0.5): What min_length value gives you the most readable output?
 summarization_test_2_2_3: 
-- your answer
+- 16
 
 # Question 2.4 (/0.5): Which max_new_tokens value gives the most readable output?
 summarization_test_2_2_4: 
-- your answer
+- 32
 
 # Question 2.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
 summarization_test_2_2_5: 
-- your answer
-
+- 0.66666
 
 # ------------------------------------------------------------------
 # | Section (3): Pegasus for longer generation (2.5 points)  | 
@@ -191,23 +189,23 @@ summarization_test_2_2_5:
 
 # Question 3.1 (/0.5): What num_beams value gives you the most readable output?
 summarization_test_3_3_1: 
-- your answer
+- 8
 
 # Question 3.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
 summarization_test_3_3_2: 
-- your answer
+- 2
 
 # Question 3.3 (/0.5): What min_length value gives you the most readable output?
 summarization_test_3_3_3: 
-- your answer
+- 60
 
 # Question 3.4 (/0.5): Which max_new_tokens value gives the most readable output?
 summarization_test_3_3_4: 
-- your answer
+- 140
 
 # Question 3.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
 summarization_test_3_3_5: 
-- your answer
+- 0.40310
 
 
 
