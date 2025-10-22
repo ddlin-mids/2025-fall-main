@@ -8,3 +8,31 @@
 .venv/
 .uv_cache/
 .python-version
+
+# Hugging Face / Trainer outputs
+shakespeare_translation_model/
+model_checkpoints/
+runs/
+outputs/
+checkpoints/
+**/checkpoint-*/
+**/pytorch_model*.bin
+**/model.safetensors
+**/flax_model.msgpack
+**/tf_model.h5
+**/optimizer.pt
+**/scheduler.pt
+**/trainer_state.json
+
+# Tokenizer artifacts (keep vocab files if you need to re-load tokenizer from repo)
+**/special_tokens_map.json
+**/tokenizer_config.json
+**/spiece.model
+**/vocab.json
+**/merges.txt
+
+# Caches
+.cache/
+.huggingface/
+datasets_cache/
+**/__pycache__/
