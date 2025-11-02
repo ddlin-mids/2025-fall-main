@@ -36,3 +36,10 @@ checkpoints/
 .huggingface/
 datasets_cache/
 **/__pycache__/
+
+# Checkpoint files
+.pt
+.ckpt
+.pth
+.bin
+.safetensors
